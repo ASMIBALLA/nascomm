@@ -1,7 +1,7 @@
 # nascomm
 ClaimBridge is a smart, voice-enabled AI agent tailored for insurance claim management, specifically in the health and travel sectors, signifying the  connection between the user and their insurer/support team. It streamlines the end-to-end claims journey: from capturing user information for a new claim, to retrieving real-time claim statuses, estimating resolution timelines, and delivering updates via SMS or email. The agent acts as a digital claims guide, integrated seamlessly with Zoho CRM for lead capture, Google Sheets for live status lookups, and communication channels for proactive notifications.
 
-# SureClaim – Backend Logic (AuroraWave)
+# ClaimBridge – Backend Logic (AuroraWave)
 
 This repository contains backend logic and workflow scripts for **SureClaim**, an AI-powered Claims Assistant agent built for the Inya.ai Buildathon 2025.
 
