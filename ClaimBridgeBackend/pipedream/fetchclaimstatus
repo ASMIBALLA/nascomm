@@ -1,0 +1,28 @@
+export default defineComponent({
+  async run({ steps, $ }) {
+    let row = steps.google_sheets.$return_value[0].row;
+
+    let status = row[2];
+    let estimated_resolution = "";
+
+    if (status === "Under Review") {
+      estimated_resolution = "Expected in 3–5 business days.";
+    } else if (status === "Approved") {
+      estimated_resolution = "Your claim will be settled within 2 business days.";
+    } else if (status === "Rejected") {
+      estimated_resolution = "No further processing is expected.";
+    } else {
+      estimated_resolution = "Currently unavailable.";
+    }
+
+    return {
+      email_or_phone: row[0],
+      claim_id: row[1],
+      status: status,
+      last_updated: row[3],
+      policy_number: row[4],
+      claim_type: row[5],
+      estimated_resolution: estimated_resolution
+    };
+  }
+});
