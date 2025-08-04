@@ -62,3 +62,6 @@ Retrieves claim data from Google Sheets and estimates resolution time.
 **Team AuroraWave**
 - Asmi Balla (Agent & Workflow Architect)
 
+![Screenshot 2025-08-04 162747](https://github.com/user-attachments/assets/cc025563-6ce2-4eed-9901-09fad71365a3)
+![Screenshot 2025-08-04 162705](https://github.com/user-attachments/assets/6e3d1a19-9ff0-4611-bf3d-f1fd2d8d5729)
+![Screenshot 2025-08-04 162638](https://github.com/user-attachments/assets/a3ae0da2-9eba-475c-9b98-fc087c698f6a)
